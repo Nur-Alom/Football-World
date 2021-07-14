@@ -1,0 +1,82 @@
+/*---------------
+    Font style 
+---------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+/*----------------------
+    Fast Section 
+----------------------*/
+
+.fast-section{
+    background-color: #2D25A0;
+    padding-top: 20px;
+}
+.head-line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+}
+.heading-title{
+    font-size: 35px;
+    color: white;
+}
+.color{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+.color:hover{
+    background-color: orange;
+}
+.heading-image img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/*------------------
+   Secend Section 
+------------------*/
+
+.secend-section{
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 50px;
+}
+.player{
+    padding: 15px ;
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 15px;
+}
+.player .player-image img{
+    border-radius: 15px;
+    width: 360px;
+    height: 256px;
+}
+/*----------------
+   Footer Part 
+-----------------*/
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.social{
+    color: #969BAB;
+}
