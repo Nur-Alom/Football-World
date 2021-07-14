@@ -60,6 +60,9 @@ body{
     box-shadow: 5px 5px 50px gray;
     border-radius: 15px;
 }
+.player-info h2{
+    font-size: 28px;
+}
 .player .player-image img{
     border-radius: 15px;
     width: 360px;
@@ -79,4 +82,18 @@ footer img{
 }
 .social{
     color: #969BAB;
+}
+
+/*------------------
+    Media Quary 
+------------------*/
+
+/*--------------------
+   Mobile Devices 
+--------------------*/
+
+@media only screen and (max-width: 688px){
+    .players, .head-line, .foot{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
